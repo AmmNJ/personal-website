@@ -1,72 +1,97 @@
+:root {
+  --color-white: #f5f5f5;
+  --color-headerBackground: linear-gradient(
+      transparent,
+      transparent 50%,
+      #00ffa2 0,
+      #00ffa2 85%,
+      transparent 0
+    )
+    no-repeat;
+  --color-links: #;
+}
+
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 112.5%;
-    line-height: 1.5;
-    margin: 0 auto;
-    padding: 7% 7%
+  background-color: var(--color-white);
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
+  /* font-size: 112.5%; */
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-header {
-    /* background-color: teal; */
-    padding: 2vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* align-items: center; */
+h1,
+h2,
+h3 {
+  display: inline;
+  font-family: 'Avenir Next', sans-serif;
+  line-height: 1.1;
 }
 
-h1 {
-    text-align: center;
-    line-height: 1;
+a {
+  text-decoration: none;
 }
 
-h2, h3 {
-    line-height: 1;
+.mainHeaderSection {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  margin: 0 10px;
+  text-align: center;
 }
 
-/* .big-heading */
-.bigHeading {
-    font-size: 2 rem;
-    font-weight: 900;
+.mainTitleHeading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0px 10px;
+  background: var(--color-headerBackground);
+}
+
+.subTitleHeading {
+  background: var(--color-headerBackground);
+}
+
+.mainNav {
+  display: flex;
+  justify-content: center;
+  margin: 30px 10px;
 }
 
 .navbarItem {
-    text-decoration: none;
-    border-bottom: 1px solid;
-    color: #FA3B3A;
-    font-size: 1em;
-    margin: 0 5%;
+  margin: 0 5px;
+  border-bottom: 1px solid #000;
+  color: #000;
 }
 
 .addressItem {
-    text-decoration: none;
-    border-bottom: 1px solid;
-    color: #FA3B3A;
+  border-bottom: 1px solid #000;
+  color: #000;
 }
 
 .profilePic {
-    max-width: 100%;
-    height: auto;
-    border-radius: 18px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 100%;
+  height: auto;
+  padding: 5%;
+  /* border-radius: 18px; */
+  background: #fff;
 }
 
 .profileDescription {
-    color: #B5B5B5;
-    font-size: 0.9rem;
-    text-align: center;
-    padding: 5px 0;
+  color: grey;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5px 0;
 }
 
 .socialMedia {
-    max-width: 90%;
-    height: auto;
-    padding: 8%;
-    margin: 5px 0;
-    border-radius: 18px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 100px;
+  height: auto;
+  padding: 5px;
+  margin: 5px 0;
+  filter: saturate(0%) brightness(0%);
 }

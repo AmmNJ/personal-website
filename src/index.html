@@ -1,119 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Website Nils</title>
-  <link rel="stylesheet" href="styles/index.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 
- </head>
-<body>
-  
-  <!-- Header with nav bar -->
-  <header>
-    <h1 class="bigHeading">Nils Ammersken</h1>
-    <nav>
-      <a class="navbarItem" href="#Contact">Contact</a>
-      ·
-      <a class="navbarItem" href="#Biography">Biography</a>
-      ·
-      <a class="navbarItem" href="#CV">CV</a>
-    </nav>
-  </header>
-  
-  <main>
-    <!-- Photo with description -->
-    <section>
-      <img class="profilePic" src="images/S:W Bewerbungsfoto.png" alt="" height="" width="">
-      <figcaption class="profileDescription">A picture of me at the Elbe in Hamburg</figcaption>
-    </section>
-    
-    <!-- Interests and skills -->
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>Analytical Thinking</li>
-        <li>Rapid Comprehension</li>
-        <li>Creativity</li>
-        <li>Empathy</li>
-        <li>Team Player</li>
-      </ul>
-      
-      <h2>Interests</h2>
-      <ul>
-        <li>Reading</li>
-        <li>Travelling</li>
-        <li>Longboarding</li>
-        <li>Gaming</li>
-        <li>Soccer</li>
-      </ul>
-    </section>
-    
-    <!-- Contact information -->
-    <section id="Contact">
-      <h2>Contact Information</h2>
-      <a class="addressItem" href="tel:123-456-7890">123-456-7890</a> <br>
-      <a class="addressItem" href="mailto:nils.ammersken@web.de">nils.ammersken@web.de</a>
-    </section>
-    
-    <!-- Github, Codepen, LinkedIn -->
-    <section>
-      <a href="https://github.com/AmmNJ/"> <img class="socialMedia" src="images/GitHub_Logo.png" alt="github" height="" width=""> </a>
-      <a href="https://codepen.io/AmmNJ-official"> <img class="socialMedia" src="images/codepen-wordmark-display-inside-black@10x.png" alt="codepen" height="" width=""> </a>
-      <a href="https://www.linkedin.com/in/nils-ammersken-9094a483"> <img class="socialMedia" src="images/LI-Logo.png" alt="linkedIn" height="" width=""> </a>
-    </section>
-    
-    <!-- Bio -->
-    <section id="Biography">
-      <h2>Biography</h2>
-      <p>
-        Hi there! I'm Nils, future Web Developer.
-        Continuously in my professional career, I came into contact with programming. Create, design and automizing workflows was fascinating. 
-        This experience has inspired me to take a Udemy online course in Web Development and now has become a passion with the desire to pursue a career in this field.
-        Hence, I am currently participating in an intesive 12-weeks Coding Bootcamp at neuefische GmbH to follow this passion.
-      </p>
-    </section>
-    
-    <!-- CV -->
-    <section>
-    <h2 id="CV">CV</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website Nils</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header with nav bar -->
+    <header class="mainHeaderSection">
+      <h1 class="mainTitleHeading">
+        I am Nils,<br />
+        a future <br />
+        Web Developer
+      </h1>
 
-    <h3>Web Development Student</h3>
-    <ul>
-      <li>2021 - present</li>
-      <li>neuefische GmbH</li>
-      <li>Hamburg, Germany</li>
-    </ul>
+      <nav class="mainNav">
+        <a class="navbarItem" href="#Contact">CONTACT</a>
+        ·
+        <a class="navbarItem" href="#socialMediaLink">SOCIAL</a>
+        ·
+        <a class="navbarItem" href="#Biography">BIO</a>
+        ·
+        <a class="navbarItem" href="#CV">CV</a>
+      </nav>
+    </header>
 
-    <h3>Project Management Business Partner</h3>
-    <ul>
-      <li>2019 - 2020</li>
-      <li>Airbus Operations GmbH, Hamburg</li>
-      <li>Hamburg, Germany</li>
-    </ul>
+    <!-- main with unique content -->
+    <main>
+      <!-- Photo with description -->
+      <figure>
+        <img
+          class="profilePic"
+          src="images/S:W Bewerbungsfoto.png"
+          alt=""
+          height=""
+          width=""
+        />
+        <figcaption class="profileDescription">
+          Looking forward to the future
+        </figcaption>
+      </figure>
 
-    <h3>Project Management Consultant</h3>
-    <ul>
-      <li>2017 - 2018</li>
-      <li>ALTEN Technology GmbH</li>
-      <li>Hamburg, Germany</li>
-    </ul>
+      <!-- Interests and skills -->
+      <section>
+        <h2 class="subTitleHeading">Skills</h2>
+        <ul>
+          <li>Analytical Thinking</li>
+          <li>Rapid Comprehension</li>
+          <li>Creativity</li>
+          <li>Empathy</li>
+          <li>Team Player</li>
+        </ul>
 
-    <h3>BBA International Business and Management Studies</h3>
-    <ul>
-      <li>2012 - 2016</li>
-      <li>Hanze University of Applied Sciences</li>
-      <li>Groningen, the Netherlands</li>
-    </ul>
-    </section>
-    
-  </main>
-  
-  <!-- Footer -->
-  <footer>
-    &copy; Nils Ammersken
-  </footer>
-  
-</body>
+        <h2 class="subTitleHeading">Interests</h2>
+        <ul>
+          <li>Reading</li>
+          <li>Travelling</li>
+          <li>Longboarding</li>
+          <li>Gaming</li>
+          <li>Soccer</li>
+        </ul>
+      </section>
+
+      <!-- Contact information -->
+      <section id="Contact">
+        <h2 class="subTitleHeading">Contact Information</h2>
+        <a class="addressItem" href="tel:123-456-7890">123-456-7890</a> <br />
+        <a class="addressItem" href="mailto:nils.ammersken@web.de"
+          >nils.ammersken@web.de</a
+        >
+      </section>
+
+      <!-- Github, Codepen, LinkedIn -->
+      <section id="socialMediaLink">
+        <a rel="”noopener" noreferrer” href="https://github.com/AmmNJ/">
+          <img
+            class="socialMedia"
+            src="images/GitHub-Mark-120px-plus.png"
+            alt="github"
+            height=""
+            width=""
+          />
+        </a>
+        <a href="https://codepen.io/AmmNJ-official">
+          <img
+            class="socialMedia"
+            src="images/codepen-Button-Black-Large.png"
+            alt="codepen"
+            height=""
+            width=""
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/nils-ammersken-9094a483">
+          <img
+            class="socialMedia"
+            src="images/LI-In-Bug.png"
+            alt="linkedIn"
+            height=""
+            width=""
+          />
+        </a>
+      </section>
+
+      <!-- Bio -->
+      <section id="Biography">
+        <h2 class="subTitleHeading">Biography</h2>
+        <p>
+          Hi there! I'm Nils, future Web Developer. Continuously in my
+          professional career, I came into contact with programming. Create,
+          design and automizing workflows was fascinating. This experience has
+          inspired me to take a Udemy online course in Web Development and now
+          has become a passion with the desire to pursue a career in this field.
+          Hence, I am currently participating in an intesive 12-weeks Coding
+          Bootcamp at neuefische GmbH to follow this passion.
+        </p>
+      </section>
+
+      <!-- CV -->
+      <section>
+        <h2 id="CV" class="subTitleHeading">CV</h2>
+
+        <h3>Web Development Student</h3>
+        <ul>
+          <li>2021 - present</li>
+          <li>neuefische GmbH</li>
+          <li>Hamburg, Germany</li>
+        </ul>
+
+        <h3>Project Management Business Partner</h3>
+        <ul>
+          <li>2019 - 2020</li>
+          <li>Airbus Operations GmbH, Hamburg</li>
+          <li>Hamburg, Germany</li>
+        </ul>
+
+        <h3>Project Management Consultant</h3>
+        <ul>
+          <li>2017 - 2018</li>
+          <li>ALTEN Technology GmbH</li>
+          <li>Hamburg, Germany</li>
+        </ul>
+
+        <h3>BBA International Business and Management Studies</h3>
+        <ul>
+          <li>2012 - 2016</li>
+          <li>Hanze University of Applied Sciences</li>
+          <li>Groningen, the Netherlands</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>&copy; Nils Ammersken</footer>
+  </body>
 </html>
