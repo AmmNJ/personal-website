@@ -21,7 +21,7 @@ html {
 
 body {
   background-color: var(--color-white);
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Avenir Next', sans-serif;
   font-weight: 400;
   /* font-size: 112.5%; */
   line-height: 1.5;
@@ -39,6 +39,10 @@ h3 {
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0;
 }
 
 .mainHeaderSection {
@@ -97,9 +101,7 @@ a {
 .profilePic {
   max-width: 100%;
   height: auto;
-  padding: 5%;
-  /* border-radius: 18px; */
-  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .profileDescription {
@@ -110,9 +112,28 @@ a {
 }
 
 .socialMedia {
-  max-width: 100px;
+  max-width: 35px;
   height: auto;
   padding: 5px;
   margin: 5px 0;
   filter: saturate(0%) brightness(0%);
+}
+
+.ulSkillsAndInterests {
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  color: #000;
+}
+
+.liSkillsAndInterests {
+  background-color: #d1d1d1;
+  padding: 5px 10px;
+  margin: 5px 5px;
+  border-radius: 15px;
+  color: #000;
 }
