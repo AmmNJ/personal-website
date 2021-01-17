@@ -185,16 +185,6 @@ hr {
   /* filter: saturate(0%) brightness(0%); */
 }
 
-/* @media (min-width: 800px) {
-  .socialMedia {
-    display: flex;
-
-    justify-content: ;
-    max-width: 50px;
-    height: auto;
-  }
-} */
-
 @media (min-width: 800px) {
   .profileAndContact {
     display: flex;
@@ -259,6 +249,21 @@ hr {
 
 .liCVDateItem {
   color: #a7a7a7;
+}
+
+@media (min-width: 800px) {
+  .bioAndCV {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 800px) {
+  .paragraphBiography {
+    flex-grow: 1;
+    width: 50%;
+    padding-right: 5%;
+  }
 }
 
 .mainFooter {
