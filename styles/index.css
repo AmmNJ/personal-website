@@ -259,10 +259,18 @@ hr {
 }
 
 @media (min-width: 800px) {
-  .paragraphBiography {
+  .mediaBiography {
     flex-grow: 1;
     width: 50%;
-    padding-right: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 800px) {
+  .mediaCV {
+    flex-grow: 1;
+    width: 50%;
+    margin-left: 5%;
   }
 }
 
