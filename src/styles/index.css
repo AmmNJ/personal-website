@@ -156,9 +156,6 @@ hr {
   /* filter: saturate(0%) brightness(0%); */
 }
 
-.competences {
-}
-
 @media (min-width: 800px) {
   .competences {
     display: flex;
