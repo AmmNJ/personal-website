@@ -98,8 +98,15 @@ p {
   display: inline-block;
 }
 
+.profilePicSection {
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
 .profilePic {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -137,3 +144,6 @@ p {
   border-radius: 15px;
   color: #000;
 }
+
+/* GRID MIT PROFICIENCY --> PROJECT MANAGEMENT // 
+ENTREPRENEURSHIP // WEB DEVELOPMENT (FRONT-END BACK-END) */
