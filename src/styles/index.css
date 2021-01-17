@@ -29,20 +29,48 @@ body {
   padding: 20px;
 }
 
+@media (min-width: 800px) {
+  body {
+    max-width: 800px;
+  }
+}
+
 h1,
 h2,
 h3 {
   display: inline;
   font-family: 'Avenir Next', sans-serif;
   line-height: 1.1;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
+
 p {
   margin: 0;
+}
+hr {
+  margin: 20px 0;
+  padding: 0;
+  border-style: none;
+  border-top-style: solid;
+  max-width: 20px;
+  color: #d1d1d1;
+}
+
+.sectionMargin {
+  margin: 30px 0 10px;
+}
+
+.innerSectionMargin {
+  margin: 10px 0 5px;
 }
 
 .mainHeaderSection {
@@ -54,6 +82,12 @@ p {
   font-size: 40px;
   font-weight: 700;
   background: var(--color-headerBackground);
+}
+
+@media (min-width: 800px) {
+  .mainTitleHeading {
+    font-size: 55px;
+  }
 }
 
 .subTitleHeading {
@@ -89,10 +123,6 @@ p {
   background-size: 0 100%;
 }
 
-.addressItem {
-  /* display: inline-block; */
-}
-
 .profilePicSection {
   text-align: center;
 }
@@ -118,10 +148,8 @@ p {
   margin: 5px 0 0;
   /* filter: saturate(0%) brightness(0%); */
 }
-
 .ulSkillsAndInterests {
   list-style-type: none;
-  list-style-position: outside;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -138,10 +166,9 @@ p {
 
 .ulCV {
   list-style-type: none;
-  list-style-position: outside;
   flex-wrap: wrap;
   padding: 0;
-  margin: 5px 0 15px;
+  margin: 5px 0 0;
 }
 
 .liCVDateItem {
