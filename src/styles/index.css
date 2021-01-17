@@ -46,17 +46,13 @@ p {
 }
 
 .mainHeaderSection {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
   margin: 0 10px;
   text-align: center;
 }
 
 .mainTitleHeading {
-  font-size: 2rem;
+  font-size: 40px;
   font-weight: 700;
-  margin: 0px 10px;
   background: var(--color-headerBackground);
 }
 
@@ -85,7 +81,6 @@ p {
     )
     no-repeat;
   transition: background-size 200ms cubic-bezier(0.46, 0, 0.06, 1);
-  cursor: pointer;
   background-size: 100% 100%;
 }
 
@@ -95,24 +90,22 @@ p {
 }
 
 .addressItem {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .profilePicSection {
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
 }
 
 .profilePic {
-  max-width: 90%;
+  max-width: 300px;
+  width: 100%;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .profileDescription {
-  color: grey;
+  color: #a7a7a7;
   font-size: 0.9rem;
   text-align: center;
   padding: 5px 0;
@@ -122,19 +115,18 @@ p {
   max-width: 35px;
   height: auto;
   padding: 5px;
-  margin: 5px 0;
-  filter: saturate(0%) brightness(0%);
+  margin: 5px 0 0;
+  /* filter: saturate(0%) brightness(0%); */
 }
 
 .ulSkillsAndInterests {
   list-style-type: none;
   list-style-position: outside;
-  padding: 0;
-  margin: 0;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  color: #000;
+  padding: 0;
+  margin: 0;
 }
 
 .liSkillsAndInterests {
@@ -142,7 +134,18 @@ p {
   padding: 5px 10px;
   margin: 5px 5px;
   border-radius: 15px;
-  color: #000;
+}
+
+.ulCV {
+  list-style-type: none;
+  list-style-position: outside;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 5px 0 15px;
+}
+
+.liCVDateItem {
+  color: #a7a7a7;
 }
 
 /* GRID MIT PROFICIENCY --> PROJECT MANAGEMENT // 
