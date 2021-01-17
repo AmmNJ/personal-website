@@ -97,11 +97,18 @@ hr {
 .mainNav {
   display: flex;
   justify-content: center;
-  margin: 30px 10px;
+  margin: 70px 10px 20px;
 }
 
 .navbarItem {
   margin: 0 5px;
+  font-size: 13px;
+}
+
+@media (min-width: 800px) {
+  .navbarItem {
+    font-size: 16px;
+  }
 }
 
 .linkDesign {
@@ -148,7 +155,40 @@ hr {
   margin: 5px 0 0;
   /* filter: saturate(0%) brightness(0%); */
 }
-.ulSkillsAndInterests {
+
+.competences {
+}
+
+@media (min-width: 800px) {
+  .competences {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 800px) {
+  .sectionSkills {
+    flex-grow: 1;
+    width: 33%;
+  }
+}
+
+@media (min-width: 800px) {
+  .sectionTechnologies {
+    flex-grow: 1;
+    width: 33%;
+  }
+}
+
+@media (min-width: 800px) {
+  .sectionInterests {
+    flex-grow: 1;
+    width: 33%;
+  }
+}
+
+.ulSkillsTechnologiesInterests {
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
@@ -157,7 +197,7 @@ hr {
   margin: 0;
 }
 
-.liSkillsAndInterests {
+.liSkillsTechnologiesInterests {
   background-color: #d1d1d1;
   padding: 5px 10px;
   margin: 5px 5px;
@@ -175,5 +215,8 @@ hr {
   color: #a7a7a7;
 }
 
-/* GRID MIT PROFICIENCY --> PROJECT MANAGEMENT // 
-ENTREPRENEURSHIP // WEB DEVELOPMENT (FRONT-END BACK-END) */
+.mainFooter {
+  margin: 50px 0 10px;
+  font-size: 12px;
+  text-align: center;
+}
