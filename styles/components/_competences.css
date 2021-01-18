@@ -1,4 +1,4 @@
-.ulSkillsTechnologiesInterests {
+.competences__ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
@@ -7,7 +7,7 @@
   margin: 0;
 }
 
-.liSkillsTechnologiesInterests {
+.competences__ul__li {
   background-color: var(--color-lightgrey);
   padding: 5px 10px;
   margin: 5px 5px;

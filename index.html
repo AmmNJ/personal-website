@@ -13,47 +13,49 @@
   </head>
   <body>
     <!-- Header with nav bar -->
-    <header class="mainHeaderSection">
-      <h1 class="mainTitleHeading">
+    <header class="main-header-section">
+      <h1 class="main-heading">
         I'm Nils,<br />
         a future <br />
         Web Developer
       </h1>
 
-      <nav class="mainNav">
-        <a class="navbarItem linkDesign" href="#Contact">CONTACT</a>
+      <nav class="navbar-main">
+        <a class="navbar-main__item link-design" href="#Contact">CONTACT</a>
         ·
-        <a class="navbarItem linkDesign" href="#Skills">SKILLS</a>
+        <a class="navbar-main__item link-design" href="#Competences"
+          >COMPETENCES</a
+        >
         ·
-        <a class="navbarItem linkDesign" href="#Biography">BIOGRAPHY</a>
+        <a class="navbar-main__item link-design" href="#Biography">BIOGRAPHY</a>
         ·
-        <a class="navbarItem linkDesign" href="#CV">CV</a>
+        <a class="navbar-main__item link-design" href="#CV">CV</a>
       </nav>
     </header>
 
     <!-- main with unique content -->
     <main>
       <!-- Photo with description -->
-      <div class="profileAndContact">
-        <figure class="profilePicSection">
+      <div class="profile-and-contact">
+        <figure class="profile-pic-section">
           <img
-            class="profilePic"
+            class="profile-pic-section__profile-pic"
             src="images/S:W Bewerbungsfoto.png"
             alt=""
             height=""
             width=""
           />
-          <figcaption class="profileDescription">
+          <figcaption class="profile-pic-section__profile-description">
             Looking forward to the future
           </figcaption>
         </figure>
 
         <!-- Contact information -->
-        <section id="Contact" class="sectionMarginContactInfo">
-          <h2 class="subTitleHeading">Contact Information</h2>
+        <section id="Contact" class="contact-info-margin">
+          <h2 class="section-heading">Contact Information</h2>
           <br />
 
-          <address class="innerSectionMargin">
+          <address class="inner-section-margin">
             Nils Ammersken
             <br />
             Adlerstraße 1
@@ -61,13 +63,9 @@
             20222 Hamburg
             <br />
             <br />
-            <a class="addressItem linkDesign" href="tel:123-456-7890"
-              >123-456-7890</a
-            >
+            <a class="link-design" href="tel:123-456-7890">123-456-7890</a>
             <br />
-            <a
-              class="addressItem linkDesign"
-              href="mailto:nils.ammersken@web.de"
+            <a class="link-design" href="mailto:nils.ammersken@web.de"
               >nils.ammersken@web.de</a
             >
             <br />
@@ -77,7 +75,7 @@
               href="https://github.com/AmmNJ/"
             >
               <img
-                class="socialMedia"
+                class="contact-info__social-media"
                 src="images/003-github.png"
                 alt="github"
                 height=""
@@ -90,7 +88,7 @@
               href="https://codepen.io/AmmNJ-official"
             >
               <img
-                class="socialMedia"
+                class="contact-info__social-media"
                 src="images/001-codepen.png"
                 alt="codepen"
                 height=""
@@ -103,7 +101,7 @@
               href="https://www.linkedin.com/in/nils-ammersken-9094a483"
             >
               <img
-                class="socialMedia"
+                class="contact-info__social-media"
                 src="images/002-linkedin.png"
                 alt="linkedIn"
                 height=""
@@ -116,57 +114,57 @@
 
       <div class="competences">
         <!-- Skills -->
-        <section class="sectionMargin sectionSkills">
-          <h2 id="Skills" class="subTitleHeading">Skills</h2>
-          <div class="innerSectionMargin">
-            <ul class="ulSkillsTechnologiesInterests">
-              <li class="liSkillsTechnologiesInterests">Analytical Thinking</li>
-              <li class="liSkillsTechnologiesInterests">Rapid Comprehension</li>
-              <li class="liSkillsTechnologiesInterests">Creativity</li>
-              <li class="liSkillsTechnologiesInterests">Empathy</li>
-              <li class="liSkillsTechnologiesInterests">Team Player</li>
+        <section class="section-margin competences__skills">
+          <h2 id="Competences" class="section-heading">Skills</h2>
+          <div class="inner-section-margin">
+            <ul class="competences__ul">
+              <li class="competences__ul__li">Analytical Thinking</li>
+              <li class="competences__ul__li">Rapid Comprehension</li>
+              <li class="competences__ul__li">Creativity</li>
+              <li class="competences__ul__li">Empathy</li>
+              <li class="competences__ul__li">Team Player</li>
             </ul>
           </div>
         </section>
 
         <!-- Technologies -->
-        <section class="sectionMargin sectionTechnologies">
-          <h2 class="subTitleHeading">Technologies</h2>
-          <div class="innerSectionMargin">
-            <ul class="ulSkillsTechnologiesInterests">
-              <li class="liSkillsTechnologiesInterests">HTML5</li>
-              <li class="liSkillsTechnologiesInterests">CSS3</li>
-              <li class="liSkillsTechnologiesInterests">Bootstrap 4.5</li>
-              <li class="liSkillsTechnologiesInterests">Javascript ES6</li>
-              <li class="liSkillsTechnologiesInterests">VBA</li>
-              <li class="liSkillsTechnologiesInterests">Figma</li>
-              <li class="liSkillsTechnologiesInterests">Affinity Designer</li>
-              <li class="liSkillsTechnologiesInterests">Qlik Sense</li>
+        <section class="section-margin competences__technologies">
+          <h2 class="section-heading">Technologies</h2>
+          <div class="inner-section-margin">
+            <ul class="competences__ul">
+              <li class="competences__ul__li">HTML5</li>
+              <li class="competences__ul__li">CSS3</li>
+              <li class="competences__ul__li">Bootstrap 4.5</li>
+              <li class="competences__ul__li">Javascript ES6</li>
+              <li class="competences__ul__li">VBA</li>
+              <li class="competences__ul__li">Figma</li>
+              <li class="competences__ul__li">Affinity Designer</li>
+              <li class="competences__ul__li">Qlik Sense</li>
             </ul>
           </div>
         </section>
 
         <!-- Interests -->
-        <section class="sectionMargin sectionInterests">
-          <h2 class="subTitleHeading">Interests</h2>
-          <div class="innerSectionMargin">
-            <ul class="ulSkillsTechnologiesInterests">
-              <li class="liSkillsTechnologiesInterests">Coding</li>
-              <li class="liSkillsTechnologiesInterests">Reading</li>
-              <li class="liSkillsTechnologiesInterests">Travelling</li>
-              <li class="liSkillsTechnologiesInterests">Longboarding</li>
-              <li class="liSkillsTechnologiesInterests">Gaming</li>
-              <li class="liSkillsTechnologiesInterests">Soccer</li>
+        <section class="section-margin competences__interests">
+          <h2 class="section-heading">Interests</h2>
+          <div class="inner-section-margin">
+            <ul class="competences__ul">
+              <li class="competences__ul__li">Coding</li>
+              <li class="competences__ul__li">Reading</li>
+              <li class="competences__ul__li">Travelling</li>
+              <li class="competences__ul__li">Longboarding</li>
+              <li class="competences__ul__li">Gaming</li>
+              <li class="competences__ul__li">Soccer</li>
             </ul>
           </div>
         </section>
       </div>
 
-      <div class="bioAndCV">
+      <div class="bio-and-cv">
         <!-- Bio -->
-        <section id="Biography" class="sectionMargin mediaBiography">
-          <h2 class="subTitleHeading">Biography</h2>
-          <p class="innerSectionMargin">
+        <section id="Biography" class="section-margin media-biography">
+          <h2 class="section-heading">Biography</h2>
+          <p class="inner-section-margin">
             Hi there! I'm Nils and my goal is to become a full-stack Web
             Developer. Continuously in my professional career, I came into
             contact with programming. Creating, designing and automizing
@@ -181,40 +179,40 @@
         </section>
 
         <!-- CV -->
-        <section class="sectionMargin mediaCV">
-          <h2 id="CV" class="subTitleHeading">CV</h2>
-          <div class="innerSectionMargin">
+        <section class="section-margin media-cv">
+          <h2 id="CV" class="section-heading">CV</h2>
+          <div class="inner-section-margin">
             <h3>Web Development Student</h3>
-            <ul class="ulCV">
-              <li class="liCVDateItem">2021 - present</li>
+            <ul class="ul-cv">
+              <li class="ul-cv__li-cv-date">2021 - present</li>
               <li>neuefische GmbH</li>
               <li>Hamburg, Germany</li>
             </ul>
             <hr />
             <h3>Project Management Business Partner</h3>
-            <ul class="ulCV">
-              <li class="liCVDateItem">2019 - 2020</li>
+            <ul class="ul-cv">
+              <li class="ul-cv__li-cv-date">2019 - 2020</li>
               <li>Airbus Operations GmbH, Hamburg</li>
               <li>Hamburg, Germany</li>
             </ul>
             <hr />
             <h3>Project Management Consultant</h3>
-            <ul class="ulCV">
-              <li class="liCVDateItem">2017 - 2018</li>
+            <ul class="ul-cv">
+              <li class="ul-cv__li-cv-date">2017 - 2018</li>
               <li>ALTEN Technology GmbH</li>
               <li>Hamburg, Germany</li>
             </ul>
             <hr />
             <h3>BBA International Business and Management Studies</h3>
-            <ul class="ulCV">
-              <li class="liCVDateItem">2012 - 2016</li>
+            <ul class="ul-cv">
+              <li class="ul-cv__li-cv-date">2012 - 2016</li>
               <li>Hanze University of Applied Sciences</li>
               <li>Groningen, the Netherlands</li>
             </ul>
             <hr />
             <h3>Erasmus Exchange Semester</h3>
-            <ul class="ulCV">
-              <li class="liCVDateItem">2015</li>
+            <ul class="ul-cv">
+              <li class="ul-cv__li-cv-date">2015</li>
               <li>Haaga-Helia University of Applied Sciences</li>
               <li>Helsinki, Finland</li>
             </ul>
@@ -224,7 +222,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="mainFooter">
+    <footer class="main-footer">
       &copy; Nils Ammersken <br />
       <div>
         Icons made by

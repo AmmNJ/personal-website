@@ -1,10 +1,10 @@
-.ulCV {
+.ul-cv {
   list-style-type: none;
   flex-wrap: wrap;
   padding: 0;
   margin: 5px 0 0;
 }
 
-.liCVDateItem {
+.ul-cv__li-cv-date {
   color: var(--color-grey);
 }

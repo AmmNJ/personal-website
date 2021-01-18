@@ -1,56 +1,56 @@
-.sectionMargin {
+.section-margin {
   margin: 30px 0 10px;
 }
 
-.innerSectionMargin {
+.inner-section-margin {
   margin: 10px 0 5px;
 }
 
-.mainHeaderSection {
+.main-header-section {
   margin: 0 10px;
   text-align: center;
 }
 
 @media (min-width: 800px) {
-  .mainHeaderSection {
+  .main-header-section {
     margin: 50px 0 0;
   }
 }
 
-.mainNav {
+.navbar-main {
   display: flex;
   justify-content: center;
   margin: 70px 10px 20px;
 }
 
 @media (min-width: 800px) {
-  .mainNav {
+  .navbar-main {
     margin: 30px 10px 20px;
   }
 }
 
-.sectionMarginContactInfo {
+.contact-info-margin {
   margin: 30px 0 10px;
 }
 
 @media (min-width: 800px) {
-  .sectionMarginContactInfo {
+  .contact-info-margin {
     margin: 20px 0;
   }
 }
 
-.profilePicSection {
+.profile-pic-section {
   text-align: center;
 }
 
 @media (min-width: 800px) {
-  .profilePicSection {
+  .profile-pic-section {
     margin: 15px 0;
   }
 }
 
 @media (min-width: 800px) {
-  .profileAndContact {
+  .profile-and-contact {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: nowrap;
@@ -68,35 +68,35 @@
 }
 
 @media (min-width: 800px) {
-  .sectionSkills {
+  .competences__skills {
     flex-grow: 1;
     width: 33%;
   }
 }
 
 @media (min-width: 800px) {
-  .sectionTechnologies {
+  .competences__technologies {
     flex-grow: 1;
     width: 33%;
   }
 }
 
 @media (min-width: 800px) {
-  .sectionInterests {
+  .competences__interests {
     flex-grow: 1;
     width: 33%;
   }
 }
 
 @media (min-width: 800px) {
-  .bioAndCV {
+  .bio-and-cv {
     display: flex;
     justify-content: space-evenly;
   }
 }
 
 @media (min-width: 800px) {
-  .mediaBiography {
+  .media-biography {
     flex-grow: 1;
     width: 50%;
     margin-right: 5%;
@@ -104,7 +104,7 @@
 }
 
 @media (min-width: 800px) {
-  .mediaCV {
+  .media-cv {
     flex-grow: 1;
     width: 50%;
     margin-left: 5%;

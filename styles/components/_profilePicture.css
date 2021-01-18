@@ -1,4 +1,4 @@
-.profilePic {
+.profile-pic-section__profile-pic {
   max-width: 300px;
   width: 100%;
   height: auto;
@@ -6,7 +6,7 @@
     0 6px 20px 0 var(--dropShadow-black);
 }
 
-.profileDescription {
+.profile-pic-section__profile-description {
   color: var(--color-grey);
   font-size: 0.9rem;
   text-align: center;

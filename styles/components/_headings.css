@@ -1,11 +1,15 @@
-.mainTitleHeading {
+.main-heading {
   font-size: 40px;
   font-weight: 700;
   background: var(--color-headerBackground);
 }
 
 @media (min-width: 800px) {
-  .mainTitleHeading {
+  .main-heading {
     font-size: 55px;
   }
+}
+
+.section-heading {
+  background: var(--color-headerBackground);
 }

@@ -4,6 +4,8 @@
 
 @import 'utility.css';
 
+@import 'components/_linkDesign.css';
+
 @import 'components/_biography.css';
 
 @import 'components/_contactInformation.css';
@@ -12,10 +14,10 @@
 
 @import 'components/_footer.css';
 
-@import 'components/_mainTitle.css';
+@import 'components/_headings.css';
 
-@import 'components/_navBar.css';
+@import 'components/_navbar.css';
 
 @import 'components/_profilePicture.css';
 
-@import 'components/_skillsTechnologiesInterests.css';
+@import 'components/_competences.css';
