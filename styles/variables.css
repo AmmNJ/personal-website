@@ -1,0 +1,15 @@
+:root {
+  --color-white: #f5f5f5;
+  --color-lightgrey: #d1d1d1;
+  --color-grey: #a7a7a7;
+  --color-black: #000;
+  --dropShadow-black: rgba(0, 0, 0, 0.2);
+  --color-headerBackground: linear-gradient(
+      transparent,
+      transparent 50%,
+      #00ffa2 0,
+      #00ffa2 85%,
+      transparent 0
+    )
+    no-repeat;
+}

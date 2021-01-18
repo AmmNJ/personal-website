@@ -1,0 +1,10 @@
+.navbarItem {
+  margin: 0 5px;
+  font-size: 13px;
+}
+
+@media (min-width: 800px) {
+  .navbarItem {
+    font-size: 16px;
+  }
+}
