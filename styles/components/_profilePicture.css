@@ -1,0 +1,14 @@
+.profilePic {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 var(--dropShadow-black),
+    0 6px 20px 0 var(--dropShadow-black);
+}
+
+.profileDescription {
+  color: var(--color-grey);
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5px 0;
+}

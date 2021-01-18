@@ -1,0 +1,11 @@
+.mainTitleHeading {
+  font-size: 40px;
+  font-weight: 700;
+  background: var(--color-headerBackground);
+}
+
+@media (min-width: 800px) {
+  .mainTitleHeading {
+    font-size: 55px;
+  }
+}

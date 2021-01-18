@@ -1,0 +1,10 @@
+.ulCV {
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 5px 0 0;
+}
+
+.liCVDateItem {
+  color: var(--color-grey);
+}
